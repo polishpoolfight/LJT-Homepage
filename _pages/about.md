@@ -34,7 +34,7 @@ I am a first-year PhD candidate at HKUST NLP Group. My research focuses on natur
 
 ## Publications
 
-The publication records below are also available on the [Publications page](/publications/).
+The publication records below are also available on the [Publications page](https://polishpoolfight.github.io/LJT-Homepage/publications/).
 
 1. **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**  
    Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, and Junxian He. *Arxiv, 2025.* First author. GitHub code repository available.
