@@ -1,18 +1,58 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the
-# server process.
-
-# Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Junteng Liu"
-title_separator          : "-"
-name                     : "Junteng Liu"
-description              : "Junteng Liu's academic portfolio"
-url                      : https://polishpoolfight.github.io
-baseurl                  : "/LJT-Homepage"
-repository               : "polishpoolfight/LJT-Homepage"
+locale: "en-US"
+title: "Junteng Liu"
+name: "Junteng Liu"
+description: "Junteng Liu's academic portfolio"
+url: https://polishpoolfight.github.io
+baseurl: "/LJT-Homepage"
+repository: "polishpoolfight/LJT-Homepage"
+author:
+  avatar: "profile.png"
+  name: "Junteng Liu"
+  bio: "First-year PhD candidate at HKUST NLP Group"
+  employer: "Hong Kong University of Science and Technology"
+  email: "jliugi@connect.ust.hk"
+  googlescholar: "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+  github: "Vicent0205"
+  twitter: "junteng88716710"
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
