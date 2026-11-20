@@ -49,6 +49,9 @@ defaults:
       author_profile: true
       share: true
       comments: true
+include:
+  - _pages
+  - files
 plugins:
   - jekyll-feed
   - jekyll-gist
