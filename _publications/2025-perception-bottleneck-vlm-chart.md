@@ -6,5 +6,5 @@ permalink: /publication/2025-perception-bottleneck-vlm-chart
 excerpt: 'First-author study on the perception bottleneck of VLMs for chart understanding. Code: Vision4Chart.'
 date: 2025-01-01
 venue: 'arXiv'
-citation: 'Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. (2025). "On the Perception Bottleneck of VLMs for Chart Understanding." arXiv. Code: Vision4Chart.'
+citation: 'Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. (2025). &quot;On the Perception Bottleneck of VLMs for Chart Understanding.&quot; arXiv. Code: Vision4Chart.'
 ---
